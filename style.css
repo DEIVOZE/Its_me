@@ -1,0 +1,28 @@
+.cell
+{
+    font: 30px wingdings;
+    color: white;
+    background-color: black;
+    TEXT-ALIGN: center;
+    width: 500px;
+}
+
+.number
+{
+    font: 15px Arial;
+}
+
+.wid
+{
+    width: 500px;
+}
+
+.box
+{
+    background-color: black;
+    TEXT-ALIGN: center;
+    font: 60px wingdings;
+    color: black;
+    width: 200px;
+    height: 200px;
+}

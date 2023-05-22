@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>МАГИЧЕСКИЙ КВАДРАТ</title>
+      <link rel="stylesheet" href="style.css">
+      <script>
+          var g = "&#" + Math.round(Math.random()*25) + 'a'.charCodeAt(0);
+          
+          function print()
+            {
+                boxx.innerHTML = g
+            }
+          
+          function symbol()
+            {
+                
+                code = "&#" +  Math.round(Math.random()*25) + 'a'.charCodeAt(0);
+                return code;
+            }
+
+          function table()
+            {
+                text = "<Table class='wid'>";
+                n = 100;
+                for (i=0; i < 10; i++)
+                {
+                    text += "<tr>";
+                    for (j=0; j < 10; j++)
+                    {
+                        n -= 1
+                        if (n % 9 == 0)
+                        {
+                            text += "<td class='number'>" + n + "</td><td class='cell'>" + g + "</td>"
+                        }
+                        else
+                        {
+                            text += "<td class='number'>" + n + "</td><td class='cell'>" + symbol() + "</td>"
+                        }
+                    }
+                    text += "</tr>"
+
+                }
+
+                text += "</Table>";
+                jone.innerHTML = text;
+            }
+      </script>
+  </head>
+  <body>
+    <div>
+        <h1>Магический квадрат</h1>
+        <ol>
+            <li>Загадай двухзначное число</li>
+            <li>Отними от него сумму его цифр</li>
+            <li>Запомни значек, соответствущий получившемуся числу</li>
+            <li>Нажми на квадрат, и я угадаю</li>
+        </ol>
+    </div>
+    <div align="center">
+       <table class="box" onclick="this.style.color='white'">
+            <tr>
+                <td id='boxx'>
+                    <script> print(); </script>
+                </td>
+            </tr>
+       </table>
+    </div>
+    <div align="center">
+        <p id="jone">
+            <script> table(); </script>
+        </p>
+    </div>
+  </body>
+</html>

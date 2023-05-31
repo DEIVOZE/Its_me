@@ -1,0 +1,36 @@
+.cell
+{
+    font: 40px wingdings;
+    color: white;
+    background-color: black;
+    TEXT-ALIGN: center;
+}
+
+.wid
+{
+    width: 500px;
+    height: 500px;
+}
+
+.num {
+	FONT-SIZE: 17px;
+	WIDTH: 30px;
+	COLOR: #000;
+	FONT-FAMILY: verdana;
+	TEXT-ALIGN: right
+}
+.symbols {
+	FONT-SIZE: 40px;
+	BACKGROUND: #000;
+	COLOR: #f1f1f1;
+	FONT-FAMILY: wingdings;
+	TEXT-ALIGN: center
+}
+.viewsymbol {
+	FONT-SIZE: 100px;
+	BACKGROUND: #000;
+	WIDTH: 150px;
+	COLOR: #f1f1f1;
+	FONT-FAMILY: wingdings;
+	HEIGHT: 150px
+}

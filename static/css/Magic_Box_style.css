@@ -1,36 +1,26 @@
-.cell
-{
-    font: 40px wingdings;
-    color: white;
-    background-color: black;
-    TEXT-ALIGN: center;
-}
-
-.wid
-{
-    width: 500px;
-    height: 500px;
-}
-
 .num {
-	FONT-SIZE: 17px;
-	WIDTH: 30px;
-	COLOR: #000;
-	FONT-FAMILY: verdana;
+	FONT-SIZE: 3vw;
+	WIDTH: 5vw;
+
+	COLOR: #afafaf;
+	FONT-FAMILY: Arial;
 	TEXT-ALIGN: right
 }
 .symbols {
-	FONT-SIZE: 40px;
+	FONT-SIZE: 5vw;
+	COLOR: #ffffff;
 	BACKGROUND: #000;
-	COLOR: #f1f1f1;
+	WIDTH: 7vw;
+	HEIGHT: 7vw;
 	FONT-FAMILY: wingdings;
 	TEXT-ALIGN: center
 }
 .viewsymbol {
-	FONT-SIZE: 100px;
+	FONT-SIZE: 10vw;
 	BACKGROUND: #000;
-	WIDTH: 150px;
+	WIDTH: 10vw;
+	TEXT-ALIGN: center;
 	COLOR: #f1f1f1;
 	FONT-FAMILY: wingdings;
-	HEIGHT: 150px
+	HEIGHT: 10vw;
 }
